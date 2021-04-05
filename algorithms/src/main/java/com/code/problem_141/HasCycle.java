@@ -55,19 +55,6 @@ public class HasCycle {
         return false;
     }
 
-    public static void main(String[] args) {
-        HasCycle t = new HasCycle();
-        ListNode node = new ListNode(3);
-//        ListNode secondNode = new ListNode(2);
-//        node.next = secondNode;
-//        node.next.next = new ListNode(0);
-//        ListNode lastNode = new ListNode(-4);
-//        node.next.next.next = lastNode;
-//        lastNode.next = secondNode;
-        boolean b = t.hasCycle(node);
-        System.out.println(b);
-
-    }
 }
 
 
