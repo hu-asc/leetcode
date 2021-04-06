@@ -8,6 +8,7 @@
 | 20   | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy       |
 | 24   | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium       |
 | 26   | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy       |
+| 49   | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium       |
 | 66   | [Plus One](https://leetcode.com/problems/rplus-one/) | Easy       |
 | 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy       |
 | 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy       |
@@ -18,6 +19,7 @@
 | 189  | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium       |
 | 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy       |
 | 239  | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard       |
+| 242  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy       |
 | 283  | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)    | Easy       |
 | 622  | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)    | Medium       |
 | 641  | [Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)    | Medium       |
