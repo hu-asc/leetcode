@@ -13,6 +13,8 @@
 | 88   | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy       |
 | 70   | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy       |
 | 84   | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard       |
+| 98   | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium       |
+| 104   | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy       |
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy       |
 | 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium       |
 | 155  | [Min Stack](https://leetcode.com/problems/min-stack/) | Easy       |
