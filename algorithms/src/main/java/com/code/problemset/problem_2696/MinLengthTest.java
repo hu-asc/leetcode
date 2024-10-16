@@ -14,21 +14,21 @@ public class MinLengthTest {
         String s = "ABFCACDB";
         MinLength minLength = new MinLength();
         int result = minLength.minLength(s);
-        int excepted = 2;
+        int expected = 2;
 
-        Assert.assertEquals(excepted, result);
+        Assert.assertEquals(expected, result);
         result = minLength.minLengthV2(s);
-        Assert.assertEquals(excepted, result);
+        Assert.assertEquals(expected, result);
         result = minLength.minLengthV3(s);
-        Assert.assertEquals(excepted, result);
+        Assert.assertEquals(expected, result);
 
         s = "ACBBD";
-        excepted = 5;
+        expected = 5;
         result = minLength.minLength(s);
-        Assert.assertEquals(excepted, result);
+        Assert.assertEquals(expected, result);
         result = minLength.minLengthV2(s);
-        Assert.assertEquals(excepted, result);
+        Assert.assertEquals(expected, result);
         result = minLength.minLengthV3(s);
-        Assert.assertEquals(excepted, result);
+        Assert.assertEquals(expected, result);
     }
 }
