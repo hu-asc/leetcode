@@ -9,3 +9,4 @@
 | 2024-09-02 | 1894. Find the Student that Will Replace the Chalk | ✔️ |
 | 2024-09-03 | 1945. Sum of Digits of String After Convert        | ✔️ |
 | 2024-09-04 | 874. Walking Robot Simulation                      | ✔️ |
+| 2024-09-05 | 2028. Find Missing Observations                    | ✔️ |
