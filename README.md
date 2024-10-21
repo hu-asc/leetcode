@@ -15,3 +15,6 @@
 | 2024-09-08 | 725. Split Linked List in Parts                      | ✔️ |
 | 2024-09-09 | 2326. Spiral Matrix IV                               | ✔️ |
 | 2024-09-10 | 2807. Insert Greatest Common Divisors in Linked List | ✔️ |
+| 2024-09-11 | 2220. Minimum Bit Flips to Convert Number            | ✔️ |
+| 2024-09-12 | 1684. Count the Number of Consistent Strings         | ✔️ |
+| 2024-09-13 | 1310. XOR Queries of a Subarray                      | ✔️ |
