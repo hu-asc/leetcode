@@ -57,4 +57,52 @@ public class IsValidBST {
         return true;
     }
 
+    // node 的 val 可以为 int 的最小值，所以此处使用 Long.MIN_VALUE
+    long prev = Long.MIN_VALUE;
+
+    /**
+     * 中序遍历
+     */
+    public boolean isValidBSTV3(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        if (!isValidBSTV3(root.left)) {
+            return false;
+        }
+        if (root.val <= prev) {
+            return false;
+        }
+        prev = root.val;
+        return isValidBSTV3(root.right);
+    }
+
+
+    /**
+     * 中序遍历
+     */
+    public boolean isValidBSTV4(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        prev = Long.MIN_VALUE;
+        return inOrder(root);
+    }
+
+    private boolean inOrder(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
+        boolean isLeftValid = inOrder(root.left);
+        if (!isLeftValid) {
+            return false;
+        }
+        // 当前节点不能小于前一个节点
+        if (root.val <= prev) {
+            return false;
+        }
+        prev = root.val;
+        return inOrder(root.right);
+    }
+
 }
