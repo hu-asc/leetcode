@@ -39,12 +39,8 @@ public class SearchMatrix {
     }
 
     /**
-     * matrix[mid][0] <= target 不一定要 left + 1
-     *
-     *
-     * @param matrix
-     * @param target
-     * @return
+     * matrix[mid][0] <= target 不一定要 mid + 1
+     * 因为 target 可能在这一行，所以 left = -1，要用开区间
      */
     private int getRow(int[][] matrix, int target) {
         int left = -1;
